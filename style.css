@@ -83,7 +83,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    justify-content: space-around;
     margin-top: 50px;
 }
 .left{}
@@ -142,7 +142,7 @@ form input{
 .right{
     background-image: url(image/1971537\ 1.png);
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: contain;
 }
 .r-plan{}
 .r-cloud{}
@@ -152,31 +152,39 @@ form input{
 .r-image{}
 .r-image img{}
 .r-plan{
-    position: absolute;
-}
-.r-plan img{
+    width: auto;
     position: relative;
 }
-
-
-
-/* .r-plan img:nth-child(1){
-    bottom: 570px;
-    right: 150px;
-    z-index: 5;
+.r-plan img{
+    position: absolute;
+}
+.r-plan img:nth-child(1){
+    bottom: 290px;
+    right: 210px;
+    z-index: 3;
 }
 .r-plan img:nth-child(2){
-    bottom: 600px;
-    right: 470px;
+    bottom: 430px;
+    right: 280px;
     z-index: 1;
 }
 .r-plan img:nth-child(3){
-    bottom: 500px;
-    right: -350px;
+    bottom: 50px;
+    right: 50px;
     z-index: 2;
-} */
-
-
-
+}
+.r-text{
+    position: absolute;
+}
+.r-text p{
+    position: relative;
+    top: -250px;
+    left: 80px;
+    z-index: 4;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'Bittybite', sans-serif;
+}
 /* form right end */
 /* form end */
