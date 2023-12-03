@@ -1,9 +1,5 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
-}
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
     .m-bar {
         flex-direction: row;
         gap: 30px;
@@ -21,7 +17,6 @@
         width: 190px;
         margin: 10px !important;
     }
-    
     .sign {
         margin-top: 70px;
         flex-direction: column-reverse;
@@ -79,10 +74,83 @@
         padding: 5px;
         margin: 0px 0px;
      }
-
-
-
-    
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .m-bar {
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+    }
+    .navber {
+        gap: 0px;
+        flex-direction: column-reverse;
+    }
+    .m-btn {
+        display: flex;
+        gap: 5px;
+    }
+    hr {
+        width: 190px;
+        margin: 10px !important;
+    }
+    .sign {
+        margin-top: 70px;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .left{
+        width: 90%;
+    }
+    .right{
+        width: 90%;
+    }
+    .r-image img {
+        width: 100%;
+    }
+    .r-plan img{
+        width: 70%;
+    }
+    .r-plan img:nth-child(1) {
+        bottom: 275px;
+        right: 235px;
+    }
+    .r-plan img:nth-child(2) {
+        bottom: 300px;
+        right: 170px;
+    }
+    .r-plan img:nth-child(3) {
+        bottom: -30px;
+        right: -30px;
+    }
+    .r-text p {
+        top: -190px;
+        left: 50px;
+    }
+    .r-text p {
+        top: -180px;
+        left: 80px;
+        font-size: 50px;
+    }
+    .left h1{
+        font-size: 30px;
+    }
+    form {
+        margin-top: 20px;
+    }
+    #iconified {
+       font-size: 14px;
+    }
+    form input {
+        height: 35px;
+    }
+    .l-text h3 {
+        font-size: 16px;
+     }
+     .l-btn button {
+        padding: 5px;
+        margin: 0px 0px;
+     }    
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -150,11 +218,11 @@
     }
     .l-text h3 {
         font-size: 16px;
-     }
-     .l-btn button {
+    }
+    .l-btn button {
         padding: 5px;
         margin: 0px 0px;
-     }
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {   
@@ -167,7 +235,6 @@
     .right{
         width: 45%;
     }
-    .r-image {}
     .r-image img {
         width: 100%;
     }
@@ -195,7 +262,6 @@
         left: 80px;
         font-size: 50px;
     }
-
 }
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width:1399.98px){
